@@ -26,15 +26,3 @@
     - Improving label consistency
     - Human level performance (HLP)
 
-
-# ML Cycle And Deployment
-at This Section Introduce How ML Cycle Work For Deployment
-## Steps
-This Steps are Iterative which Can Return To First Step After Reach the Last One
-* Scoping
-    - Define Project
-* Data
-    - define Data and Establish a Baseline
-    - Labeling and Organize Data
-* Modeling
-* Deployment
