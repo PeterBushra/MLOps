@@ -1,0 +1,229 @@
+feature {
+  name: "clouds_all"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "date_time"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "day"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "day_of_week"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "holiday"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  domain: "holiday"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "hour"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "month"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "rain_1h"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "snow_1h"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "temp"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "traffic_volume"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "weather_description"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  domain: "weather_description"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "weather_main"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  domain: "weather_main"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+string_domain {
+  name: "holiday"
+  value: "Christmas Day"
+  value: "Columbus Day"
+  value: "Independence Day"
+  value: "Labor Day"
+  value: "Martin Luther King Jr Day"
+  value: "Memorial Day"
+  value: "New Years Day"
+  value: "None"
+  value: "State Fair"
+  value: "Thanksgiving Day"
+  value: "Veterans Day"
+  value: "Washingtons Birthday"
+}
+string_domain {
+  name: "weather_description"
+  value: "SQUALLS"
+  value: "Sky is Clear"
+  value: "broken clouds"
+  value: "drizzle"
+  value: "few clouds"
+  value: "fog"
+  value: "freezing rain"
+  value: "haze"
+  value: "heavy intensity drizzle"
+  value: "heavy intensity rain"
+  value: "heavy snow"
+  value: "light intensity drizzle"
+  value: "light intensity shower rain"
+  value: "light rain"
+  value: "light rain and snow"
+  value: "light shower snow"
+  value: "light snow"
+  value: "mist"
+  value: "moderate rain"
+  value: "overcast clouds"
+  value: "proximity shower rain"
+  value: "proximity thunderstorm"
+  value: "proximity thunderstorm with drizzle"
+  value: "proximity thunderstorm with rain"
+  value: "scattered clouds"
+  value: "shower drizzle"
+  value: "sky is clear"
+  value: "sleet"
+  value: "smoke"
+  value: "snow"
+  value: "thunderstorm"
+  value: "thunderstorm with heavy rain"
+  value: "thunderstorm with light drizzle"
+  value: "thunderstorm with light rain"
+  value: "thunderstorm with rain"
+  value: "very heavy rain"
+  value: "shower snow"
+  value: "thunderstorm with drizzle"
+}
+string_domain {
+  name: "weather_main"
+  value: "Clear"
+  value: "Clouds"
+  value: "Drizzle"
+  value: "Fog"
+  value: "Haze"
+  value: "Mist"
+  value: "Rain"
+  value: "Smoke"
+  value: "Snow"
+  value: "Squall"
+  value: "Thunderstorm"
+}
